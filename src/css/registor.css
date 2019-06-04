@@ -1,0 +1,196 @@
+@charset "UTF-8";
+.regist_header {
+  padding: 16px;
+  background: #FFF;
+  border: 1px solid #e1e1e1;
+}
+.regist_header .wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.regist_header .logo {
+  display: block;
+  float: left;
+  width: 54px;
+  height: 48px;
+}
+
+.regist_header_right {
+  float: right;
+  line-height: 18px;
+  font-family: "SimSun";
+  color: #999;
+}
+.regist_header_right .help_wrap {
+  position: relative;
+  z-index: 1010;
+  float: right;
+  padding: 0 6px;
+  margin-left: 25px;
+  background: #FFF;
+}
+.regist_header_right .help_wrap .hd_menu {
+  padding-right: 18px;
+  background: url(https://passport.yhd.com/front-passport/passport/images/regist.png?e1b091c) no-repeat right -30px;
+  color: #333;
+}
+.regist_header_right .help_wrap .hd_menu .help_ico {
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  background: url(https://passport.yhd.com/front-passport/passport/images/regist.png?e1b091c) no-repeat -344px 0;
+  vertical-align: bottom;
+}
+.regist_header_right .help_wrap .hd_menu_list {
+  display: none;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 98px;
+  padding-top: 26px;
+  border: 1px solid #ccc;
+}
+.regist_header_right .help_wrap .hd_menu_list li {
+  background: #fff;
+  border-top: 1px dotted #ccc;
+  padding-left: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+.regist_header_right .help_wrap:hover .hd_menu_list {
+  display: block;
+}
+.regist_header_right .help_wrap a:hover {
+  color: #e60012;
+}
+.regist_header_right .help_wrap a.hd_menu:hover {
+  color: #e60012;
+}
+.regist_header_right .fr {
+  float: right;
+}
+.regist_header_right .fr .blue_link {
+  color: #06c;
+}
+.regist_header_right .fr .blue_link:hover {
+  color: #f60;
+}
+
+#simplefooter {
+  width: 980px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+#simplefooter a {
+  margin: 0 8px;
+  color: #333;
+}
+#simplefooter p {
+  margin-top: 10px;
+  color: #333;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+#registor {
+  padding: 0 34px 30px;
+  position: relative;
+  margin: 0 auto;
+  color: #333;
+}
+#registor .registor-bg {
+  position: absolute;
+  top: 27px;
+  left: 50%;
+  z-index: -1;
+  width: 1200px;
+  height: 500px;
+  margin-left: -600px;
+}
+#registor .bg-1 {
+  opacity: .2;
+  background: url(https://passport.yhd.com/front-passport/passport/images/r_icon1.png?e1b091c);
+}
+#registor .bg-2 {
+  opacity: .2;
+  background: url(https://passport.yhd.com/front-passport/passport/images/r_icon2.png?e1b091c);
+}
+#registor .bg-3 {
+  opacity: .2;
+  background: url(https://passport.yhd.com/front-passport/passport/images/r_icon3.png?e1b091c);
+}
+#registor .bg-4 {
+  opacity: .2;
+  background: url(https://passport.yhd.com/front-passport/passport/images/r_icon4.png?e1b091c);
+}
+#registor .bg-5 {
+  opacity: .2;
+  background: url(https://passport.yhd.com/front-passport/passport/images/r_icon5.png?e1b091c);
+}
+#registor .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 50px;
+  color: #333;
+}
+#registor .registor-flow {
+  width: 332px;
+  padding: 30px 0;
+  line-height: 20px;
+  margin: 0 auto;
+}
+#registor .registor-flow div {
+  margin-bottom: 20px;
+}
+#registor .registor-flow p {
+  padding-bottom: 5px;
+  color: #666666;
+}
+#registor .registor-flow input {
+  height: 40px;
+  padding-left: 14px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  width: 318px;
+  color: #555;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+#registor .registor-flow .submit {
+  margin-bottom: 14px;
+}
+#registor .registor-flow .submit #btn {
+  background-color: #ff3c3c;
+  margin-top: 15px;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  color: #fff;
+  width: 330px;
+  height: 42px;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+#registor .main-bottom {
+  height: 35px;
+  font-size: 12px;
+  line-height: 35px;
+  color: #666;
+  text-indent: 1em;
+}
+#registor .main-bottom a {
+  color: #06c;
+}
+
+label.error {
+  color: red;
+}
+
+/*# sourceMappingURL=registor.css.map */

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://libs.cdnjs.net/jquery/3.4.1/jquery.js"></script>
+    <link rel="stylesheet" href="./fonts/font_ojuivzbrtj/iconfont.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <script src="./script/js/cookie.js"></script>
+    <script src="./script/js/cart.js"></script>
+</head>
+
+<body>
+    <div class="yhd_cart_content">
+        <div class="cart_header  wrap clearbox">
+            <h1>
+                <a href="./index.html" class="logo"></a>
+                <a href="javascript:;" class="logo_txt"></a>
+            </h1>
+            <div class="area_wrapper">
+                <span class="area_txt">配送至：</span>
+                <div class="mod_area_select">
+                    <div class="address" id="completed_address">
+                        <span class="val_text" id="detail_area_name">
+                            上海
+                            <i>|</i>
+                            静安区
+                            <i>|</i>
+                            城区
+                        </span>
+                        <i class="btn_arrow"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="search">
+                <input id="keyword" type="text" placeholder="请输入关键词">
+                <a id="search" href="javascript:;" class="search_btn iconfont icon-magnifier"></a>
+            </div>
+        </div>
+        <div id="cart_main_body">
+            <!-- 空购物车 start -->
+            <div class="empty" style="display:none;">
+                <div class="no_prod offline clearbox">
+                    <div class="img_wrap"> <img src="https://img.yihaodianimg.com/cart/shopping/pc/images/offline.gif" width="300" height="300"> </div>
+                    <div class="info">
+                        <p>购物车还是空的呢，快去采购吧~<br>或者登录查看之前加入的商品。</p>
+                        <div class="btn_box">
+                            <a href="javascript:;" class="confirm">登录</a>
+                            <a href="javascript:;" class="cancel">去逛逛</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 空购物车 end -->
+            <div class="wrap">
+                <div class="cart_list_header cart_wrap cart_tit">
+                    <span class="checkbox">
+                        <a href="javascript:;" class="check check_all checked">
+                            <i class="iconfont icon-icon"></i>
+                        </a>全选
+                    </span>
+                    <span class="tit">
+                        商品信息
+                    </span>
+                    <span class="price">
+                        单价（元）
+                    </span>
+                    <span class="num">
+                        数量
+                    </span>
+                    <span class="total">
+                        小计（元）
+                    </span>
+                    <span class="act">
+                        操作
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="settling_column_bar none">
+            <div class="pay_tools_bar">
+                <div class="pay_tools_inner clearbox">
+                    <div class="pay_tools_l clearbox">
+                        <span class="select_all checkbox clearbox">
+                            <a href="javascript:;" class="pay_checkbox check check_all checked">
+                                <i class="iconfont icon-icon"></i>
+                            </a>
+                        <label class="all_checked_label">
+                            全选（共
+                            <b>2</b>
+                            件）
+                        </label>
+                        </span> |
+                        <span>
+                            <a class="l_a_tool lt_delete" href="javascript:;">批量删除</a>
+                        </span>
+                    </div>
+                    <div class="pay_tools_r clearbox">
+                        <a class="checkout_btn" href="javascript:;">
+                            去结算
+                        </a>
+                        <div class="r_price_total r_control_tip">
+                            合计：
+                            <span class="rpt_count">
+                                ¥
+                                <b>887.90</b>
+                            </span>
+                            <i class="iconfont rpt_detail arrow_restore"></i>
+                        </div>
+                        <div class="r_prod_view r_control_tip">
+                            <span class="rpv_count">
+                                已选商品
+                                <b>4</b>
+                                件
+                            </span>
+                            <a href="javascript:;" class="pvw">
+                                预览
+                            </a> |
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

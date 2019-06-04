@@ -1,0 +1,271 @@
+.regist_header {
+  padding: 16px;
+  background: #FFF;
+  border: 1px solid #e1e1e1;
+}
+.regist_header .wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.regist_header .logo {
+  display: block;
+  float: left;
+  width: 54px;
+  height: 48px;
+}
+
+.regist_header_right {
+  float: right;
+  line-height: 18px;
+  font-family: "SimSun";
+  color: #999;
+}
+.regist_header_right .help_wrap {
+  position: relative;
+  z-index: 1010;
+  float: right;
+  padding: 0 6px;
+  margin-left: 25px;
+  background: #FFF;
+}
+.regist_header_right .help_wrap .hd_menu {
+  padding-right: 18px;
+  background: url(https://passport.yhd.com/front-passport/passport/images/regist.png?e1b091c) no-repeat right -30px;
+  color: #333;
+}
+.regist_header_right .help_wrap .hd_menu .help_ico {
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  background: url(https://passport.yhd.com/front-passport/passport/images/regist.png?e1b091c) no-repeat -344px 0;
+  vertical-align: bottom;
+}
+.regist_header_right .help_wrap .hd_menu_list {
+  display: none;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 98px;
+  padding-top: 26px;
+  border: 1px solid #ccc;
+}
+.regist_header_right .help_wrap .hd_menu_list li {
+  background: #fff;
+  border-top: 1px dotted #ccc;
+  padding-left: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+.regist_header_right .help_wrap:hover .hd_menu_list {
+  display: block;
+}
+.regist_header_right .help_wrap a:hover {
+  color: #e60012;
+}
+.regist_header_right .help_wrap a.hd_menu:hover {
+  color: #e60012;
+}
+.regist_header_right .fr {
+  float: right;
+}
+.regist_header_right .fr .blue_link {
+  color: #06c;
+}
+.regist_header_right .fr .blue_link:hover {
+  color: #f60;
+}
+
+#simplefooter {
+  width: 980px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+#simplefooter a {
+  margin: 0 8px;
+  color: #333;
+}
+#simplefooter p {
+  margin-top: 10px;
+  color: #333;
+}
+
+body {
+  background-color: #fcfcfc;
+  font: 12px "Microsoft YaHei", Helvetica Neue, tahoma, Arial, Verdana, "Hiragino Sans GB", "\5b8b\4f53";
+  color: #333;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.login_wrap {
+  padding: 26px 0 0;
+  background: url(https://passport.yhd.com/front-passport/passport/images/regist_topshadow.png?) repeat-x;
+}
+
+.mod_login_wrap {
+  position: relative;
+  float: right;
+  width: 330px;
+  padding: 45px 35px 0 35px;
+  background-color: #fff;
+}
+.mod_login_wrap .error_tips {
+  position: absolute;
+  top: 9px;
+  left: 35px;
+  width: 282px;
+  height: 30px;
+  overflow: hidden;
+  padding: 0 10px 0 36px;
+  border: 1px solid #e5debc;
+  border-radius: 2px;
+  background: #fff7d1 url(https://passport.yhd.com/front-passport/passport/images/login.png?e829f75) no-repeat -324px -150px;
+  line-height: 30px;
+  color: #999;
+}
+.mod_login_wrap h3 {
+  float: left;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+  line-height: 30px;
+}
+.mod_login_wrap .regist_new {
+  float: right;
+  line-height: 30px;
+}
+.mod_login_wrap a.blue_link {
+  color: #06c;
+}
+.mod_login_wrap .login_form {
+  position: relative;
+  padding: 0 0 18px;
+}
+.mod_login_wrap .form_item_wrap {
+  width: 330px;
+  margin: 0 auto;
+}
+.mod_login_wrap .form_item_wrap .form_item {
+  position: relative;
+  z-index: 100;
+  height: 24px;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+  border: 1px solid #dedede;
+  background: #FFF;
+  line-height: 24px;
+}
+.mod_login_wrap .form_item_wrap .form_item .user_ico {
+  background: url(https://passport.yhd.com/front-passport/passport/images/login_new.png?e829f75) no-repeat -50px 4px;
+}
+.mod_login_wrap .form_item_wrap .form_item label {
+  display: inline-block;
+  width: 42px;
+  vertical-align: middle;
+  color: #666;
+}
+.mod_login_wrap .form_item_wrap .form_item .gay_text {
+  color: #ccc;
+}
+.mod_login_wrap .form_item_wrap .form_item .ipt {
+  width: 230px;
+  height: 24px;
+  padding-left: 3px;
+  border: 0 none;
+  line-height: 24px;
+  vertical-align: middle;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+}
+.mod_login_wrap .form_item_wrap .form_item .paswd_ico {
+  background: url(https://passport.yhd.com/front-passport/passport/images/login_new.png?e829f75) no-repeat -150px 4px;
+}
+.mod_login_wrap .form_item_wrap .login_btn {
+  width: 330px;
+  height: 52px;
+  border: 0 none;
+  border-radius: 3px;
+  background: #ff3c3c;
+  font-size: 16px;
+  color: #FFF;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #ff7373;
+  font-family: "Microsoft YaHei";
+  line-height: 52px;
+}
+
+.joint_landing_wrap {
+  position: relative;
+  z-index: 10;
+}
+.joint_landing_wrap p {
+  padding: 15px 0;
+  color: #666;
+}
+.joint_landing_wrap .account_list {
+  float: left;
+  width: 220px;
+}
+.joint_landing_wrap .account_list li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.joint_landing_wrap .account_list a.iconfont {
+  display: inline-block;
+  width: 32px;
+  height: 35px;
+  font-size: 32px;
+  line-height: 35px;
+}
+.joint_landing_wrap .unfold {
+  float: right;
+  display: block;
+  line-height: 34px;
+  color: #999;
+}
+.joint_landing_wrap .unfold i {
+  display: inline-block;
+  width: 20px;
+  height: 26px;
+  margin-top: 4px;
+  margin-left: 5px;
+  background: url(https://passport.yhd.com/front-passport/passport/images/login_new.png?e829f75) no-repeat -200px 3px;
+  vertical-align: middle;
+}
+
+.login_switch {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+}
+.login_switch .two_dimension_code {
+  background: url(https://passport.yhd.com/front-passport/passport/images/codeSwich.png?e829f75) no-repeat -88px 0;
+  display: block;
+  width: 62px;
+  height: 62px;
+  cursor: pointer;
+}
+
+.mod_left_banner {
+  margin-top: 45px;
+  width: 510px;
+  height: 315px;
+  float: left;
+}
+.mod_left_banner img {
+  width: 510px;
+  height: 315px;
+}
+
+/*# sourceMappingURL=login.css.map */

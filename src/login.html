@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://libs.cdnjs.net/jquery/3.4.1/jquery.js"></script>
+    <script src="./fonts/font_yjm0698bb5q/iconfont.js"></script>
+    <script src="./script/js/cookie.js"></script>
+    <script src="./script/js/login.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="login_wrap">
+        <div class="wrap clearbox">
+            <div class="mod_login_wrap">
+                <div class="login_pc">
+                    <p id="error_tips" class="error_tips" style="display:none">
+                        您填写的账户名不存在请核对后重新填写
+                    </p>
+                    <div class="clearbox">
+                        <h3>1号店用户登录</h3>
+                        <a href="./registor.html" class="regist_new blue_link">注册新账号</a>
+                    </div>
+                    <div class="login_form">
+                        <div class="form_item_wrap">
+                            <div class="form_item cur">
+                                <label class="user_ico">
+                                    &nbsp;
+                                </label>
+                                <input type="text" id="un" class="ipt ipt_username gay_text" name="username" placeholder="用户名" style="outline: none;">
+                            </div>
+                            <div class="form_item">
+                                <label class="paswd_ico">
+                                    &nbsp;
+                                </label>
+                                <input type="password" id="pwd" name="password" class="ipt ipt_password gay_text" placeholder="密码" style="outline: none;">
+                            </div>
+                            <button id="login_button" type="button" class="login_btn">登录</button>
+                        </div>
+                        <div class="joint_landing_wrap">
+                            <p>更多合作网站账号登录</p>
+                            <div class="clearbox">
+                                <ul class="account_list clearbox">
+                                    <li>
+                                        <a href="https://passport.yhd.com/qq/login.do" target="_blank" class="iconfont qq" title="QQ">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-QQ"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://passport.yhd.com/jingdong/login.do" target="_blank" class="iconfont jingdong" title="京东">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-jingdong-"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://passport.yhd.com/wechat/login.do" target="_blank" class="iconfont weixin" title="微信">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-weixin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://passport.yhd.com/sina/login.do" target="_blank" class="iconfont sina" title="新浪微博">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-xinlangweibo"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="javascript:;" class="unfold" title="展开">
+                                    更多合作网站
+                                    <i></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login_switch">
+                    <a href="javascript:;" class="two_dimension_code"></a>
+                </div>
+            </div>
+            <div class="mod_left_banner">
+                <a id="imgLink">
+                    <img src="https://passport.yhd.com/front-passport/passport/images/login_pic.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+</body>
+
+</html>

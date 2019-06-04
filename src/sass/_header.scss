@@ -1,0 +1,79 @@
+@charset "utf-8";
+.regist_header {
+    padding: 16px;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+    .wrap {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .logo {
+        display: block;
+        float: left;
+        width: 54px;
+        height: 48px;
+    }
+}
+
+.regist_header_right {
+    float: right;
+    line-height: 18px;
+    font-family: "SimSun";
+    color: #999;
+    .help_wrap {
+        position: relative;
+        z-index: 1010;
+        float: right;
+        padding: 0 6px;
+        margin-left: 25px;
+        background: #FFF;
+        .hd_menu {
+            padding-right: 18px;
+            background: url(https://passport.yhd.com/front-passport/passport/images/regist.png?e1b091c) no-repeat right -30px;
+            color: #333;
+            .help_ico {
+                width: 16px;
+                height: 18px;
+                display: inline-block;
+                background: url(https://passport.yhd.com/front-passport/passport/images/regist.png?e1b091c) no-repeat -344px 0;
+                vertical-align: bottom;
+            }
+        }
+        .hd_menu_list {
+            display: none;
+            position: absolute;
+            top: -5px;
+            right: 0;
+            width: 98px;
+            padding-top: 26px;
+            border: 1px solid #ccc;
+            li {
+                background: #fff;
+                border-top: 1px dotted #ccc;
+                padding-left: 24px;
+                height: 24px;
+                line-height: 24px;
+            }
+        }
+        &:hover .hd_menu_list {
+            display: block;
+        }
+        a {
+            &:hover {
+                color: #e60012;
+            }
+        }
+        a.hd_menu:hover {
+            color: #e60012;
+        }
+    }
+    .fr {
+        float: right;
+        .blue_link {
+            color: #06c;
+            &:hover {
+                color: #f60;
+            }
+        }
+    }
+}

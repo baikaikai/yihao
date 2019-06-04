@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/registor.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <!-- 注册 s-->
+    <div id="registor">
+        <div class="bg-1 registor-bg"></div>
+        <div class="bg-2 registor-bg"></div>
+        <div class="bg-3 registor-bg"></div>
+        <div class="bg-4 registor-bg"></div>
+        <div class="bg-5 registor-bg"></div>
+        <p class="title">一号店注册</p>
+        <div class="registor-flow">
+            <form action="../php/registor.php" method="post" id="form1">
+                <div class="username">
+                    <p>请输入用户名:</p>
+                    <input type="text" name="username" id="username" placeholder="用户名">
+                </div>
+                <div class="password">
+                    <p>请输入您的密码:</p>
+                    <input type="password" name="password" id="password" placeholder="设置密码">
+                    <p>请再次输入您的密码:</p>
+                    <input type="password" name="repass" id="repass" placeholder="确认密码">
+                </div>
+                <p class="main-bottom">点击注册，表示您同意1号店<a>《服务协议及隐私声明》</a></p>
+                <div class="submit">
+                    <input type="submit" value="同意协议并注册" name="submit" id="btn" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 注册 e -->
+    <div id="footer"></div>
+    <script src="https://libs.cdnjs.net/jquery/3.4.1/jquery.js"></script>
+    <script src="./script/thirdplugins/jquery.validate.js"></script>
+    <script src="./script/js/registor.js"></script>
+</body>
+
+</html>

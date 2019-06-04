@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import "header";
+@import "footer";
+body {
+    background: #f9f9f9;
+}
+
+#registor {
+    padding: 0 34px 30px;
+    position: relative;
+    margin: 0 auto;
+    color: #333;
+    // 背景图
+    .registor-bg {
+        position: absolute;
+        top: 27px;
+        left: 50%;
+        z-index: -1;
+        width: 1200px;
+        height: 500px;
+        margin-left: -600px;
+    }
+    .bg-1 {
+        opacity: .2;
+        background: url(https://passport.yhd.com/front-passport/passport/images/r_icon1.png?e1b091c)
+    }
+    .bg-2 {
+        opacity: .2;
+        background: url(https://passport.yhd.com/front-passport/passport/images/r_icon2.png?e1b091c)
+    }
+    .bg-3 {
+        opacity: .2;
+        background: url(https://passport.yhd.com/front-passport/passport/images/r_icon3.png?e1b091c)
+    }
+    .bg-4 {
+        opacity: .2;
+        background: url(https://passport.yhd.com/front-passport/passport/images/r_icon4.png?e1b091c)
+    }
+    .bg-5 {
+        opacity: .2;
+        background: url(https://passport.yhd.com/front-passport/passport/images/r_icon5.png?e1b091c)
+    }
+    //注册账号标题
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 50px;
+        color: #333;
+    }
+    .registor-flow {
+        width: 332px;
+        padding: 30px 0;
+        line-height: 20px;
+        margin: 0 auto;
+        div {
+            margin-bottom: 20px;
+        }
+        p {
+            padding-bottom: 5px;
+            color: #666666;
+        }
+        input {
+            height: 40px;
+            padding-left: 14px;
+            line-height: 40px;
+            display: inline-block;
+            vertical-align: middle;
+            border: 1px solid #e8e8e8;
+            width: 318px;
+            color: #555;
+            font-size: 14px;
+            font-family: "微软雅黑";
+        }
+        // 提交
+        .submit {
+            margin-bottom: 14px;
+            #btn {
+                background-color: #ff3c3c;
+                margin-top: 15px;
+                border: 1px solid rgba(186, 186, 186, 0.3);
+                color: #fff;
+                width: 330px;
+                height: 42px;
+                margin: 0 auto;
+                line-height: 42px;
+                text-align: center;
+                display: block;
+                font-size: 14px;
+                font-family: "微软雅黑";
+            }
+        }
+    }
+    // 用户协议
+    .main-bottom {
+        height: 35px;
+        font-size: 12px;
+        line-height: 35px;
+        color: #666;
+        text-indent: 1em;
+        a {
+            color: #06c;
+        }
+    }
+}
+
+label.error {
+    color: red;
+}
